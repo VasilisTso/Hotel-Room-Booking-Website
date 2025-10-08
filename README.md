@@ -1,4 +1,4 @@
-#Hotel Room Booking Website
+Hotel Room Booking Website
 
 This web application is a University project created using PHP, HTML, CSS, JAVASCRIPT, SQL, Xampp, and Apache Server. 
 
