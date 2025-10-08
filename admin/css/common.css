@@ -1,0 +1,148 @@
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background-color: grey;
+}
+
+.h-font{
+    font-family: 'Gill Sans', cursive;
+}
+
+.navbar{
+    padding: 3px 2px;
+    position: sticky;
+    top: 0;
+}
+
+.modal-title{
+    display: flex;
+    align-items: center;
+}
+
+.loginbtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+.forgotpsw{
+    color: hsl(0, 0%, 0%);
+    text-decoration: none;
+}
+.forgotpsw:hover{
+    color: hsl(0, 0%, 35%);
+}
+
+.badge{
+    margin-bottom: 3px;
+    text-wrap: wrap;
+    line-height: normal;
+}
+
+.registerbtn{
+    text-align: center;
+}
+
+/*Hide Arrows From Input Number*/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+:root{
+  --teal: #2ec1ac;
+  --teal_hover: #279e8c;
+}
+
+.color-bg{
+  background-color: rgb(180, 180, 180);
+}
+
+.checkavail{
+  background-color: white;
+  box-shadow: 2px 2px 2px rgb(173, 173, 173);
+  padding: 4;
+  border-radius: 5px;
+}
+
+.custom-bg{
+  background-color: var(--teal);
+  border: 1px solid var(--teal);
+}
+
+.custom-bg:hover{
+  background-color: var(--teal_hover);
+  border-color: var(--teal_hover);
+}
+
+label.checkavail{
+  font-weight: 500;
+}
+
+.availability-form{
+  margin-top: -50px;
+  z-index: 2;
+  position: relative;
+}
+
+@media screen and (max-width: 575px){
+  .availability-form{
+    margin-top: 0px;
+    padding: 0 35px;
+    position: relative;
+  }
+}
+
+#dashboard-menu{
+  position: fixed;
+  height: 100%;
+  z-index: 11;
+}
+
+@media screen and (max-width: 991px){
+  #dashboard-menu{
+      height: auto;
+      width: 100%;
+  }
+  #main-container{
+    margin-top: 60px;
+    
+  }
+}
+
+.h-line{
+  width: 150px;
+  margin: 0 auto;
+  height: 1.7px;
+}
+
+.custom-alert{
+  position: fixed;
+  top: 80px;
+  right: 25px;
+  z-index: 111;
+}
+
+/*custom scrollbar*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+/* handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+/* handle hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

@@ -1,0 +1,15 @@
+1. Open xampp(install it if it's not already installed)
+
+2. Run apache server and mysql on xampp panel
+
+3. Open phpMyAdmin via: http://localhost/phpmyadmin/ 
+   Create a new database with the name hotelbookingwebsite(name of database)
+   Go to the "Import" tab in phpMyAdmin, select the SQL file that's provided provided, and click Go to import it
+
+4. On db_config.php check the database connection settings like: host, username, password, database name (you probably wont have to,
+								 but make sure it matches your local set up)
+
+5. Place the project files in the htdocs directory of XAMPP 
+
+6. On a browser, type: http://localhost/HotelBookingWebsite/ (for the main website)
+		      http://localhost/HotelBookingWebsite/admin/ (for the admin panel)
