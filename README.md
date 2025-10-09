@@ -1,4 +1,4 @@
-Hotel Room Booking Website
+# Hotel Room Booking Website
 
 
 This web application is a University project created using PHP, HTML, CSS, JAVASCRIPT, SQL, Xampp, and Apache Server. 
@@ -6,7 +6,7 @@ This web application is a University project created using PHP, HTML, CSS, JAVAS
 Its main purpose is booking rooms based an availability for specific dates and room types(based on filters), and seeing and managing your reservations through your profile.
 The admin of the website also has control over the reservations, details of the rooms and their types, features etc, all throuth the admin control panel.
 
-MAIN PAGE
+## MAIN PAGE
 
 
 <img width="1912" height="907" alt="Screenshot 2025-10-09 135657" src="https://github.com/user-attachments/assets/73360934-1d80-4e0c-a1d1-1ff15c1babda" />
@@ -18,7 +18,7 @@ MAIN PAGE
 <img width="1905" height="834" alt="Screenshot 2025-10-09 135938" src="https://github.com/user-attachments/assets/e791ffd8-ea96-41ff-aa1c-543edcd48b7a" />
 
 
-ADMIN CONTROL PANEL
+## ADMIN CONTROL PANEL
 
 <img width="1907" height="908" alt="Screenshot 2025-10-09 135957" src="https://github.com/user-attachments/assets/7e5e10d3-840d-4c90-af63-cf0d10f519cc" />
 <img width="1915" height="907" alt="Screenshot 2025-10-09 140014" src="https://github.com/user-attachments/assets/f8643174-9037-4213-b3d2-32bd83133f2f" />
